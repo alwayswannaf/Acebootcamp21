@@ -1,0 +1,56 @@
+body{
+  font-family:'Courier New', Courier, monospace;
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:auto;
+  padding:10px;
+  margin:auto;
+  text-align:justify;
+  font-size:30px;
+  background:azure;
+  
+  }
+
+
+
+
+/*styles for my headers*/
+h1 , h2 {color: gold}
+h3 {color: greenyellow}
+h4, h5 {color: red}
+h6 {color: bisque}
+
+
+/*nav*/
+.topnav { 
+  overflow: auto; 
+  background-color:white;
+  opacity: 80%;
+
+  }
+/*inside the bar*/
+.topnav a{ 
+  float: center; 
+  display: block; 
+  color: red; 
+  text-align: center; 
+  padding: 14px 16px; 
+  text-decoration: none; 
+  }
+
+/*hover*/
+.topnav a:hover { 
+  background-color: palegreen;
+  color: black; 
+  }
+
+
+  button {
+  float: right;
+  font-size: 20px;
+  
+  
+  }
+
+
+  demo {color: blanchedalmond}
