@@ -1,0 +1,38 @@
+body {
+            background-image: url("sample2.jpeg");
+            color: black;
+            text-align: center;    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 100%;
+            position: absolute;
+            font-family:'Times New Roman', Times, serif;
+        }
+
+h1 {
+            width: 100%;
+            max-width: 600px;
+            font-weight: normal;
+            font-size: 52px;
+      
+          
+        }
+
+button {
+            border-bottom-color:  rgb(95, 102, 204);
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            padding: 5px 10px;
+            margin-top: 40px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 2px 2px 12px;
+            transition: transform .3s;
+        }
+button:hover {
+            transform: scale(1.5);
+        }

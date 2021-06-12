@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title> Lab 10 </title>
+	<div id="head">
+		<link rel="stylesheet" type="text/css" href="main.css" />
+	</div>
+</head>
+
+<body>
+	<div class="header">
+		<h1> My different pages. </h1>
+		<p> Check them out! </p>
+		<button id="change1" onclick="cssChange1()"> Click here to see style 1</button>
+<button id="change2" onclick="cssChange2()"> Click here to see style 2</button>
+<button id="change3" onclick="cssChange3()"> Click here to see style 3</button>
+<button id="change4" onclick="cssChange4()"> Click here to see style 4</button>
+</div>
+
+			<div class="topnav">
+				<a href="https://www.dota2.com/home"> Dota 2 ></a>
+				<a href="https://diablo4.blizzard.com/en-us/"> Diablo IV ></a>
+				<a href="https://www.mortalkombat.com/"> Mortal Kombat ></a>
+				<a href="https://www.jackboxgames.com/"> Jackbox Games ></a>
+			</div>
+
+			<div class="row">
+				<div class="column">
+					<h2> HTML </h2>
+					<p id="">HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).<br>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+
+				</div>
+
+
+
+
+				<div class="column">
+						<h2 id="cssTitle">CSS </h2>
+					<p id="demo">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+            <br>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.</p>
+<p> Put some info:</p>
+<form name="listForm">
+favorite food: <input name="fd" type="text"><br>
+favorite car: <input name="fc" type="text"><br>
+favorite animal: <input name="fa" type="text"><br>
+favorite sport: <input name="fs" type="text"><br>
+</form>
+</div>
+
+
+<div class="column">
+<h2> Javascript </h2>
+<p id="javaScript">JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.</p>
+<button id="button" onclick="change()"> Click here to see some Javascript function.</button>
+</div>
+</div>
+<script>
+function change() {
+  document.getElementById('javaScript').innerHTML = "WOW! YOU CLICKED ME!";
+  }
+
+function cssChange1() {
+  document.getElementById('head').innerHTML ='<link rel="stylesheet" type="text/css" href="css1.css">';
+}
+function cssChange2() {
+  document.getElementById('head').innerHTML ='<link rel="stylesheet" type="text/css" href="css2.css">';
+}
+function cssChange3() {
+  document.getElementById('head').innerHTML ='<link rel="stylesheet" type="text/css" href="css3.css">';
+}
+
+function cssChange4() {
+  document.getElementById('head').innerHTML ='<link rel="stylesheet" type="text/css" href="css4.css">';
+}
+
+</script>
+</body>
+
+</html>
